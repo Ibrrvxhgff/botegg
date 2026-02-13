@@ -1,7 +1,7 @@
 {
   "name": "baileys-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "بوت تجربي راح ينزل الاصدار الثاني سريع",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,10 +11,20 @@
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
+    "baileys-pro": "github:Ibrrvxhgff/baileyss",
     "chalk": "^4.1.2",
     "node-cache": "^5.1.2",
     "pino": "^8.17.2",
     "qrcode-terminal": "^0.12.0",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "axios": "^1.7.9",
+    "fluent-ffmpeg": "^2.1.3",
+    "fs-extra": "^11.3.0",
+    "moment-timezone": "^0.5.46",
+    "cheerio": "^1.0.0",
+    "@hapi/boom": "^10.0.1",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0"
   }
 }
