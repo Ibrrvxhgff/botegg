@@ -1,18 +1,26 @@
 {
   "name": "baileys-bot",
   "version": "1.0.0",
-  "description": "بوت تجربي راح ينزل الاصدار الثاني سريع",
+  "description": "بوت تجريبي - الإصدار المطور بنظام الأوامر الذكي",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "baileys-pro"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
     "baileys-pro": "github:Ibrrvxhgff/baileyss",
     "chalk": "^4.1.2",
+    "cfonts": "^3.3.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^5.1.0",
     "node-cache": "^5.1.2",
     "pino": "^8.17.2",
     "qrcode-terminal": "^0.12.0",
@@ -25,6 +33,11 @@
     "@hapi/boom": "^10.0.1",
     "dotenv": "^16.4.7",
     "node-cron": "^3.0.3",
-    "@ffmpeg-installer/ffmpeg": "^1.1.0"
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "node-fetch": "^3.3.2",
+    "file-type": "^19.0.0",
+    "awesome-phonenumber": "^6.10.0",
+    "jsdom": "^24.0.0",
+    "form-data": "^4.0.0"
   }
 }
