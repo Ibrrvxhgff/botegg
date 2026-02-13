@@ -7,20 +7,24 @@
 ---
 
 ## 🚀 Overview
-A powerful, high-performance WhatsApp bot built using a **Hybrid Integration** between the **Official Baileys** for connection stability and **Baileys-Pro** for advanced message handling and native flow features.
+
+Ibrahim-Pro is a powerful, high-performance WhatsApp bot built on a hybrid integration between the official Baileys library and Baileys-Pro. This unique architecture combines the connection stability of the official Baileys with advanced message handling and native flow features provided by Baileys-Pro, delivering a seamless and feature-rich experience.
 
 ---
 
-## 🌟 Key Features
-* **🔗 Hybrid Core:** Powered by `@whiskeysockets/baileys` for the most stable and modern connection.
-* **🎮 Pro Handler:** Fully integrated with `baileys-pro` to support interactive buttons, lists, and native flows.
-* **🗄️ Database:** Reliable persistent storage managed by **LowDB**.
-* **🔌 Plugin System:** Highly modular structure allowing you to add new features via plugins easily.
-* **🔑 Pairing Code:** Connect your bot without scanning QR—supports direct phone number pairing.
+## ✨ Key Features
+
+* **🔗 Hybrid Core** – Utilizes `@whiskeysockets/baileys` for a stable, up‑to‑date connection.
+* **🎮 Pro Handler** – Fully integrated with `baileys-pro` to support interactive buttons, lists, and native flows.
+* **🗄️ Persistent Database** – Reliable storage managed by LowDB.
+* **🔌 Modular Plugin System** – Easily extend functionality by adding or removing plugins.
+* **🔑 Pairing Code Authentication** – Connect your bot using a phone number instead of scanning a QR code.
 
 ---
 
 ## 🛠️ Installation & Setup
+
+Follow these steps to get your bot up and running:
 
 ### 1. Clone the Repository
 ```bash
